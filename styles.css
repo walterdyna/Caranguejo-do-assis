@@ -171,6 +171,8 @@ header{
 
     nav {
         margin-top: 10px;
+        font-size: 20px;
+        height: 200px;
     }
 
     .o_caranguejo {
@@ -214,6 +216,8 @@ header{
     }
 }
 
+
+
 /* ----------------------------------------------------------------------------------------------------- */
 /* responsivo 300px */
 @media screen and (max-width: 300px) {
@@ -227,6 +231,12 @@ header{
     .logo_caranguejo img {
       max-width: 70%;
     }
+    nav {
+        margin-top: 10px;
+        font-size: 20px;
+        height: 200px;
+    }
+
     .o_caranguejo {
       width: 80%;
       margin-left: 10px;
