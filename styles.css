@@ -153,6 +153,9 @@ header{
     border: none;
 }
 
+/* ----------------------------------------------------------------------------------------------------- */
+/* Responsivo 600px */
+
 @media screen and (max-width: 600px) {
     body {
         background-size: auto;
@@ -212,7 +215,60 @@ header{
 }
 
 /* ----------------------------------------------------------------------------------------------------- */
+/* responsivo 300px */
+@media screen and (max-width: 300px) {
+    body {
+      background-size: auto;
+    }
+    .logo_caranguejo {
+      margin-top: 100px;
+      height: 60px;
+    }
+    .logo_caranguejo img {
+      max-width: 70%;
+    }
+    .o_caranguejo {
+      width: 80%;
+      margin-left: 10px;
+    }
+    .desc {
+      font-size: 20px;
+      line-height: 25px;
+      margin-bottom: 100px;
+      padding: 10px;
+    }
+    .como_chegar {
+      width: 80%;
+      margin-left: 10px;
+    }
+    iframe {
+      margin-top: 10px;
+      margin-left: -15px;
+      width: 95%;
+      height: 200px;
+    }
+    h2 {
+      font-size: 30px;
+      line-height: 25px;
+      margin-top: 20px;
+      margin-bottom: 5px;
+    }
+    h3 {
+      font-size: 25px;
+      line-height: 20px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    .linkendin {
+      font-size: 15px;
+    }
+  }
+  
 
+
+
+/* ----------------------------------------------------------------------------------------------------- */
+/* Conheça */
 
 
 .imagemAssis {
@@ -284,11 +340,66 @@ header{
     text-align: center;
     margin-left: 215%;
   }
+    /* ----------------------------------------------------------------------------------------------------- */
+  /* Responsivo 600px  conheça*/
+  /* regra geral para a imagem */
+.imagemAssis {
+    width: 300px;
+    height: 200px;
+    border-radius: 30px;
+    margin-top: 20px;
+  }
   
-  @media screen and (max-width: 768px) {
+  .imagemAssis img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 215%;
+  }
+  
+  /* regra para telas menores que 600px */
+  @media screen and (max-width: 600px) {
     .imagemAssis {
       width: 100%;
       height: auto;
+      margin-top: 10px;
+    }
+    
+    .imagemAssis img {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .farnciscoAssis, .sonhosExperiencias {
+      padding: 50px;
+      font-size: 20px;
+      margin-top: -50px;
+    }
+  
+    h1 {
+      border: 10px;
+      margin-top: 0;
+      font-size: 30px;
+    }
+  }
+  
+  /* ----------------------------------------------------------------------------------------------------- */
+  /* Responsivo 300px  conheça*/
+  @media screen and (max-width: 300px) {
+    .farnciscoAssis, .sonhosExperiencias {
+      padding: 50px;
+      font-size: 18px;
+    }
+  
+    h1 {
+      font-size: 20px;
+      margin: 0 10px;
+    }
+  
+    .imagemAssis {
+      width: 200px;
+      height: 150px;
       margin-top: 10px;
     }
   
@@ -296,8 +407,11 @@ header{
       margin-left: 0;
     }
   }
+  
+
 
   /* ----------------------------------------------------------------------------------------------------- */
+/* Trabalhe_conosco */
 
   .trabalhe {
     background-color: rgba(15, 1, 1, 0.5);
@@ -329,26 +443,53 @@ font-size: 20px;
 
 }
 
-@media screen and (max-width: 768px) {
+ /* ----------------------------------------------------------------------------------------------------- */
+  /* Responsivo 600px  Trabalhe_conosco*/
+   
+  @media screen and (max-width: 600px) {
     .trabalhe {
-        margin: 20px;
+      margin: 50px;
     }
+  
     .trabalhe form label,
     .trabalhe form input[type="text"],
     .trabalhe form input[type="email"],
     .trabalhe form input[type="file"],
     .trabalhe form input[type="submit"] {
-        margin-top: -60px;
-        font-size: 16px;
-        border-radius: 20px;
+      margin-top: 10px;
+      border-radius: 10px;
     }
-    .trabalhe form input[type="file"]{
-        font-size: 16px;
-    }
+  
+    .trabalhe form input[type="file"],
     .trabalhe form input[type="submit"] {
-        font-size: 16px;
+      font-size: 16px;
     }
-}
+  }
+
+   /* ----------------------------------------------------------------------------------------------------- */
+  /* Responsivo 300px  Trabalhe_conosco*/
+  @media screen and (max-width: 300px) {
+    .trabalhe {
+      margin: 50px;
+    }
+    .trabalhe form label, 
+    .trabalhe form input[type="text"], 
+    .trabalhe form input[type="email"], 
+    .trabalhe form input[type="file"], 
+    .trabalhe form input[type="submit"] {
+      margin-top: 10px;
+      font-size: 16px;
+    }
+    
+    .trabalhe form input[type="file"]{
+      font-size: 14px;
+    }
+    
+    .trabalhe form input[type="submit"] {
+      font-size: 14px;
+    }
+  }
+  
 
 
 
