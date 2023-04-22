@@ -1,0 +1,355 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    
+}
+
+body {
+    margin: 0;
+    background-image: url('./assets/fundo.jpg');
+    background-size: cover;
+    /* Define o tamanho da imagem para cobrir todo o fundo */
+    background-position: center;
+    /* Define a posição central da imagem */
+}
+
+a {
+
+    background-color: burlywood;
+    border-radius: 10px;
+    color: brown;
+    font-size: 30px;
+    margin: 12px;
+    font-weight: 400px;
+    line-height: 40px;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(222, 184, 135, 0.3);
+    padding: 10px
+
+}
+
+.logo_caranguejo {
+    margin-top: 150px;
+    height: 80px;
+    /* Define a altura fixa do contêiner */
+    display: flex;
+    /* Define o display flex no contêiner */
+    justify-content: center;
+    /* Centraliza o conteúdo horizontalmente */
+    align-items: center;
+    /* Centraliza o conteúdo verticalmente */
+
+}
+
+.logo_caranguejo img {
+    max-width: 50%;
+    /* Define a largura máxima da imagem */
+    height: auto;
+    /* Define a altura automática da imagem para evitar distorções */
+}
+
+
+
+nav {
+    margin-top: 20px;
+    color: burlywood;
+    border-radius: 30px;
+    text-align: center;
+    border-color: brown;
+    cursor: pointer;
+    font-weight: 400px;
+}
+
+.o_caranguejo {
+    display: inline-block;
+    width: 40%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    opacity: 100px;
+    margin: 20px 0 30px 30px;
+    text-align-last: auto;
+}
+
+h2 {
+    margin-top: 40px;
+    text-align: center;
+    color: aliceblue;
+    background-color: brown;
+    border: none;
+    font-weight: 30px;
+    line-height: 30px;
+    border-radius: 30px;
+    background-color: rgba(15, 1, 1, 0.5);
+    margin-bottom: 10px;
+    font-family: 'EB Garamond', serif;
+    font-size: 40px;
+
+}
+
+.desc {
+    margin-top: 40px;
+    text-align: center;
+    color: burlywood;
+    border-color: brown;
+    text-decoration-color: brown;
+    font-weight: 50px;
+    line-height: 30px;
+    font-size: 30px;
+    background-color: rgba(15, 1, 1, 0.5);
+    border-radius: 30px;
+    margin-bottom: 200px;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ponto {
+    background-color: none;
+    color: none;
+    border: none;
+}
+
+.como_chegar {
+    display: inline-block;
+    width: 40%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    margin-left: 40px;
+
+}
+
+h3 {
+    margin-top: 10px;
+    text-align: center;
+    color: aliceblue;
+    background-color: brown;
+    border: none;
+    font-weight: 50px;
+    line-height: 30px;
+    border-radius: 30px;
+    background-color: rgba(15, 1, 1, 0.5);
+    margin-bottom: 10px;
+    font-family: 'EB Garamond', serif;
+}
+
+iframe {
+    margin-top: 20px;
+        display: block;
+    margin-left: 0px;
+    border-radius: 30px;
+    display: inline-block;
+    margin-bottom: 215px;
+}
+
+header{
+    margin-left: 80px;
+}
+
+.linkendin{
+    color: aqua;
+    border: none;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-size: auto;
+    }
+
+    .logo_caranguejo {
+        margin-top: 80px;
+    }
+
+    .logo_caranguejo img {
+        max-width: 80%;
+    }
+
+    nav {
+        margin-top: 10px;
+    }
+
+    .o_caranguejo {
+        width: 100%;
+        margin: 20px 0 10px;
+        text-align: center;
+    }
+
+    .desc {
+        margin-top: 20px;
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .como_chegar {
+        width: 100%;
+        margin: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        font-size: 26px;
+        line-height: 26px;
+        margin-top: 20px;
+    }
+
+    h3 {
+        font-size: 22px;
+        line-height: 26px;
+        margin-top: 20px;
+    }
+
+    iframe {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    header{
+        margin-left: 20px;
+    }
+}
+
+/* ----------------------------------------------------------------------------------------------------- */
+
+
+
+.imagemAssis {
+    width: 300px;
+    height: 200px;
+    border-radius: 30px;
+    margin-top: 20px;
+  }
+  
+  .imagemAssis img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 215%;
+  }
+
+  .historia{
+    margin-top: 80px;
+  }
+
+  h1{
+    margin-top: -10px;
+    text-align: center;
+    color: burlywood;
+    border: 20px;
+  }
+.farnciscoAssis{
+    margin-top: -100px;
+    text-align: center;
+    color: burlywood;
+    border-color: brown;
+    text-decoration-color: brown;
+    font-weight: 40px;
+    line-height: 30px;
+    font-size: 25px;
+    background-color: rgba(15, 1, 1, 0.5);
+    border-radius: 30px;
+    padding: 150px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sonhosExperiencias{
+    margin-top: -90px;
+    text-align: center;
+    color: burlywood;
+    border-color: brown;
+    text-decoration-color: brown;
+    font-weight: 30px;
+    line-height: 30px;
+    font-size: 25px;
+    background-color: rgba(15, 1, 1, 0.5);
+    border-radius: 30px;
+    padding: 150px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.imagemAssis {
+    width: 300px;
+    height: 200px;
+    border-radius: 30px;
+    margin-top: 20px;
+  }
+  
+  .imagemAssis img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 215%;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .imagemAssis {
+      width: 100%;
+      height: auto;
+      margin-top: 10px;
+    }
+  
+    .imagemAssis img {
+      margin-left: 0;
+    }
+  }
+
+  /* ----------------------------------------------------------------------------------------------------- */
+
+  .trabalhe {
+    background-color: rgba(15, 1, 1, 0.5);
+    margin: 300px;
+  }
+.trabalhe form label, 
+.trabalhe form input[type="text"], 
+.trabalhe form input[type="email"], 
+.trabalhe form input[type="file"], 
+.trabalhe form input[type="submit"] {
+    margin-top: -90px;
+    text-align: center;
+    color: burlywood;
+    border-color: brown;
+    text-decoration-color: brown;
+    background-color: rgba(15, 1, 1, 0.5);
+    border-radius: 30px;
+}
+
+.trabalhe form input[type="file"]{
+color: brown;
+background-color: burlywood;
+font-size: 20px;
+}
+.trabalhe form input[type="submit"] {
+color: brown;
+background-color: burlywood;
+font-size: 20px;
+
+}
+
+@media screen and (max-width: 768px) {
+    .trabalhe {
+        margin: 20px;
+    }
+    .trabalhe form label,
+    .trabalhe form input[type="text"],
+    .trabalhe form input[type="email"],
+    .trabalhe form input[type="file"],
+    .trabalhe form input[type="submit"] {
+        margin-top: -60px;
+        font-size: 16px;
+        border-radius: 20px;
+    }
+    .trabalhe form input[type="file"]{
+        font-size: 16px;
+    }
+    .trabalhe form input[type="submit"] {
+        font-size: 16px;
+    }
+}
+
+
+
+
